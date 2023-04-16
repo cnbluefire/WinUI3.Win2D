@@ -9,7 +9,7 @@
     <ProjectName>winrt.lib.uap</ProjectName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
-    <AppContainerApplication>true</AppContainerApplication>
+    <AppContainerApplication>false</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
@@ -44,7 +44,7 @@
     <ClCompile>
       <CompileAsWinRT>false</CompileAsWinRT>
       <AdditionalIncludeDirectories>..\Inc;$(EtwDirectory);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>ENABLE_WINRT_EXPERIMENTAL_TYPES=1;WRT_EXPORT;WINUI3;WIN2D_VERSION="$(Win2DVersion)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ENABLE_WINRT_EXPERIMENTAL_TYPES=1;WRT_EXPORT;WINUI3;WIN2D_VERSION="$(Win2DVersion)";%(PreprocessorDefinitions);CANVAS_ANIMATED_CONTROL_IS_ENABLED</PreprocessorDefinitions>
       <WarningLevel>Level4</WarningLevel>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -54,7 +54,7 @@
       <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
     </Link>
     <Midl>
-      <PreprocessorDefinitions>ENABLE_WINRT_EXPERIMENTAL_TYPES=1;WINUI3</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ENABLE_WINRT_EXPERIMENTAL_TYPES=1;WINUI3;CANVAS_ANIMATED_CONTROL_IS_ENABLED</PreprocessorDefinitions>
       <AdditionalOptions>/nomidl %(AdditionalOptions)</AdditionalOptions>
     </Midl>
   </ItemDefinitionGroup>
