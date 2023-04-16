@@ -1,4 +1,4 @@
-copy from [chuckries/Win2D](https://github.com/chuckries/Win2D)
+enable [CanvasAnimatedControl](https://microsoft.github.io/Win2D/WinUI3/html/T_Microsoft_Graphics_Canvas_UI_Xaml_CanvasAnimatedControl.htm) for WinUI3. copy from [chuckries/Win2D](https://github.com/chuckries/Win2D)
 
 # Transitioning Win2D to Reunion is In-Progress
 
