@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0-windows10.0.17763.0</TargetFramework>
+    <TargetFramework>net6.0-windows10.0.17763.0</TargetFramework>
 
     <AnalysisLevel>4</AnalysisLevel>
     <WarningLevel>4</WarningLevel>
@@ -19,11 +19,12 @@
     <CsWinRTGenerateProjection>true</CsWinRTGenerateProjection>
 
     <Platforms>AnyCPU</Platforms>
+    <WindowsAppSdkVersion>1.2.230313.1</WindowsAppSdkVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.WindowsAppSdk" Version="$(WindowsAppSdkVersion)" />
-    <PackageReference Include="Microsoft.Windows.CSWinRT" Version="1.4.1" />
+    <PackageReference Include="Microsoft.Windows.CSWinRT" Version="2.0.2" />
     <!-- <PackageReference Include="Microsoft.SourceLink.AzureRepos.Git" Version="1.0.0" PrivateAssets="All" /> -->
   
     <CSWinRTInputs Include="$(PkgMicrosoft_WinUI)\lib\uap10.0\*.winmd" />
