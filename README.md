@@ -1,6 +1,6 @@
 enable [CanvasAnimatedControl](https://microsoft.github.io/Win2D/WinUI3/html/T_Microsoft_Graphics_Canvas_UI_Xaml_CanvasAnimatedControl.htm) for WinUI3. copy from [chuckries/Win2D](https://github.com/chuckries/Win2D)
 
-require .net6 and Microsoft.WindowsAppSdk version 1.2.230313.1
+require .net6 and Microsoft.WindowsAppSdk version 1.4.231115000
 
 # Transitioning Win2D to Reunion is In-Progress
 

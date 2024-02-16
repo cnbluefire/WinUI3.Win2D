@@ -61,6 +61,7 @@
 
   <ItemDefinitionGroup>
     <ClCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING;</PreprocessorDefinitions>
       <AdditionalOptions>/Qspectre %(AdditionalOptions)</AdditionalOptions>
 
       <!-- Add the experimental features -->
